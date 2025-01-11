@@ -8,25 +8,28 @@ This project implements a simple web server on an ESP32 microcontroller. The ser
 
 Features:
 
-WiFi Connectivity: Connects to a specified Wi-Fi network.
-Web Server: Hosts a basic web page with on/off buttons for controlling the GPIO pins.
-GPIO Control: Controls the state of GPIO pins 26 and 27 based on web requests.
-User-friendly Interface: Provides a simple and intuitive web interface for interaction.
+*WiFi Connectivity: Connects to a specified Wi-Fi network.
+*Web Server: Hosts a basic web page with on/off buttons for controlling the GPIO pins.
+*GPIO Control: Controls the state of GPIO pins 26 and 27 based on web requests.
+*User-friendly Interface: Provides a simple and intuitive web interface for interaction.
+
+
 Hardware Requirements:
 
-ESP32 development board
-Wi-Fi network with known SSID and password
-Software Requirements:
+*ESP32 development board
+*Wi-Fi network with known SSID and password
+*Software Requirements:
+*Arduino IDE with ESP32 support
 
-Arduino IDE with ESP32 support
 Installation:
 
-Install the Arduino IDE: Download and install the Arduino IDE from the official website.
-Install ESP32 Board Support: Follow the instructions in the Arduino IDE to install the ESP32 board support packages.
-Upload the Code:
-Copy the provided code into the Arduino IDE.
-Replace ssid and password with your Wi-Fi network credentials.
-Upload the code to your ESP32 board.
+*Install the Arduino IDE: Download and install the Arduino IDE from the official website.
+*Install ESP32 Board Support: Follow the instructions in the Arduino IDE to install the ESP32 board support packages.
+*Upload the Code:
+*Copy the provided code into the Arduino IDE.
+*Replace ssid and password with your Wi-Fi network credentials.
+*Upload the code to your ESP32 board.
+
 Usage:
 
 Connect to the ESP32's IP Address:
